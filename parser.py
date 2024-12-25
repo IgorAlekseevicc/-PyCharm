@@ -4,7 +4,7 @@ import pandas as pd
 #from time import sleep
 #from selenium import  webdriver
 #driver = webdriver.Chrome()
-user_login = '15470173  '#input('Введите ID пользователя: ')
+user_login = input('Введите ID пользователя: ')
 url = f'https://www.kinopoisk.ru/user/{user_login}/votes/'
 
 r = requests.get(url)
